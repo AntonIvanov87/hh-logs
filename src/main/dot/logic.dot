@@ -1,0 +1,27 @@
+digraph {
+  logic -> xmlback [weight="28580888", penwidth=20];
+  xhh -> logic [weight="6195848", penwidth=4.3];
+  logic -> search [weight="3112638", penwidth=2.2];
+  api -> logic [weight="1877244", penwidth=1.3];
+  logic -> negotiations [weight="1753218", penwidth=1.2];
+  mobile -> logic [weight="1112142", penwidth=0.8];
+  logic -> relations [weight="856409", penwidth=0.6];
+  logic -> kardinal_ranking [weight="701466", penwidth=0.5];
+  logic -> rs [weight="592753", penwidth=0.4];
+  logic -> correktor [weight="334447", penwidth=0.2];
+  logic -> similar_query [weight="279089", penwidth=0.2];
+  logic -> autosearch [weight="241199", penwidth=0.2];
+  logic -> assessments [weight="179248", penwidth=0.1];
+  jlogic -> logic [weight="167278", penwidth=0.1];
+  logic -> makeup [weight="136976", penwidth=0.1];
+  logic -> cms [weight="117090", penwidth=0.1];
+  logic -> billing [weight="83336", penwidth=0.1];
+  logic -> hhid [weight="34652", penwidth=0.1];
+  logic -> soc_service [weight="29763", penwidth=0.1];
+  logic -> session [weight="8938", penwidth=0.1];
+  logic -> tests [weight="7356", penwidth=0.1];
+  logic -> kardinal [weight="4363", penwidth=0.1];
+  logic -> auth_proxy [weight="2084", penwidth=0.1];
+  logic -> suggest [weight="1391", penwidth=0.1];
+  backoffice -> logic [weight="1317", penwidth=0.1];
+}

@@ -1,0 +1,19 @@
+digraph {
+  jlogic -> xmlback [weight="2462359", penwidth=20];
+  xhh -> jlogic [weight="1194154", penwidth=9.7];
+  jlogic ->	banner [weight="713752", penwidth=5.8];
+  jlogic -> negotiations [weight="577562", penwidth=4.7];
+  jlogic -> kardinal_ranking [weight="222472", penwidth=1.8];
+  jlogic -> logic [weight="167278", penwidth=1.4];
+  api -> jlogic [weight="97852", penwidth=0.8];
+  jlogic -> search [weight="52138", penwidth=0.4];
+  jlogic -> kardinal [weight="45101", penwidth=0.4];
+  mobile -> jlogic [weight="29389", penwidth=0.2];
+  jlogic -> hhid [weight="4314", penwidth=0.1];
+  jlogic -> cms [weight="1532", penwidth=0.1];
+  jlogic -> tests [weight="997", penwidth=0.1];
+  jlogic -> assessments [weight="785", penwidth=0.1];
+  jlogic -> makeup [weight="381", penwidth=0.1];
+  backoffice -> jlogic [weight="48", penwidth=0.1];
+  jlogic -> dav [weight="31", penwidth=0.1];
+}

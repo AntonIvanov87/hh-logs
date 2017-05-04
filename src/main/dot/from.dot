@@ -1,0 +1,30 @@
+digraph {
+  subgraph cluster_frontik {
+    xhh; api; mobile;
+    style="invis";
+  }
+  subgraph cluster_logic {
+    logic;
+    style="invis";
+  }
+  subgraph cluster_backend {
+    xmlback; search; negotiations;
+    style="invis";
+  }
+  subgraph cluster_db {
+    db;
+    style="invis";
+  }
+  xmlback -> db [weight="31043247", penwidth=21.7];
+  logic -> xmlback [weight="31043247", penwidth=21.7];
+  xhh -> xmlback [weight="18604127", penwidth=6.5];
+  xhh -> logic [weight="7390002", penwidth=5.5];
+  logic -> search [weight="3112638", penwidth=2.2];
+  xhh -> negotiations [weight="2982028", penwidth=2.1];
+  logic -> negotiations [weight="2330780", penwidth=1.6];
+  xhh -> search [weight="2106491", penwidth=1.5];
+  mobile -> xmlback [weight="1990038", penwidth=1.4];
+  api -> logic [weight="1877244", penwidth=1.3];
+  api -> xmlback [weight="1574582", penwidth=1.1];
+  mobile -> logic [weight="1112142", penwidth=0.8];
+}

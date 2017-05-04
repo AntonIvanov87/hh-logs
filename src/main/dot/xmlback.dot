@@ -1,0 +1,18 @@
+digraph {
+  logic -> xmlback [weight="28580888", penwidth=20];
+  xhh -> xmlback [weight="18604127", penwidth=6.5];
+  jlogic -> xmlback [weight="2462359", penwidth=1.7];
+  mobile -> xmlback [weight="1990038", penwidth=1.4];
+  api -> xmlback [weight="1574582", penwidth=1.1];
+  xmlback -> hhid [weight="429831", penwidth=0.3];
+  xmlback -> search [weight="372293", penwidth=0.3];
+  xmlback -> relations [weight="184992", penwidth=0.1];
+  backoffice -> xmlback [weight="78733", penwidth=0.1];
+  xmlback -> session [weight="27335", penwidth=0.1];
+  indexer -> xmlback [weight="19151", penwidth=0.1];
+  mob_notifier -> xmlback [weight="13083", penwidth=0.1];
+  xmlback -> dav_write [weight="1618", penwidth=0.1];
+  xmlback -> dav_read [weight="34", penwidth=0.1];
+  bbo -> xmlback [weight="3", penwidth=0.1];
+  xmlback -> auth_proxy [weight="1", penwidth=0.1];
+}
